@@ -15,7 +15,7 @@ You'll need to install Pytumblr first using the following command:
 
 Then clone this repisotory:
 
-`''
+```
 git clone https://github.com/xjdeng/tumblr-hourly-stats.git
 cd tumblr-hourly-stats
 ```
