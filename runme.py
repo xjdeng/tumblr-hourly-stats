@@ -7,6 +7,7 @@ import httplib2
 import socket
 import os
 import sqlite3
+import sys
 
 usual_suspects = (IOError, httplib.HTTPException, httplib2.ServerNotFoundError, socket.error, socket.timeout)
 
@@ -100,3 +101,10 @@ def processFollowers(client):
     c.close()
     cnx.commit()
     cnx.close()
+
+def main(argv):
+    client = getClient(argv[1])
+    processFollowers(client)
+
+if __name__ == '__main__':
+    main(sys.argv)
