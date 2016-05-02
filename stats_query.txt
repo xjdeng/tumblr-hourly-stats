@@ -1,0 +1,47 @@
+select 0,1.0*count(case when idle < 3600 then 1 end)/count(idle) from data where hour = 0
+union
+select 1,1.0*count(case when idle < 3600 then 1 end)/count(idle) from data where hour = 1
+union
+select 2,1.0*count(case when idle < 3600 then 1 end)/count(idle) from data where hour = 2
+union
+select 3,1.0*count(case when idle < 3600 then 1 end)/count(idle) from data where hour = 3
+union
+select 4,1.0*count(case when idle < 3600 then 1 end)/count(idle) from data where hour = 4
+union
+select 5,1.0*count(case when idle < 3600 then 1 end)/count(idle) from data where hour = 5
+union
+select 6,1.0*count(case when idle < 3600 then 1 end)/count(idle) from data where hour = 6
+union
+select 7,1.0*count(case when idle < 3600 then 1 end)/count(idle) from data where hour = 7
+union
+select 8,1.0*count(case when idle < 3600 then 1 end)/count(idle) from data where hour = 8
+union
+select 9,1.0*count(case when idle < 3600 then 1 end)/count(idle) from data where hour = 9
+union
+select 10,1.0*count(case when idle < 3600 then 1 end)/count(idle) from data where hour = 10
+union
+select 11,1.0*count(case when idle < 3600 then 1 end)/count(idle) from data where hour = 11
+union
+select 12,1.0*count(case when idle < 3600 then 1 end)/count(idle) from data where hour = 12
+union
+select 13,1.0*count(case when idle < 3600 then 1 end)/count(idle) from data where hour = 13
+union
+select 14,1.0*count(case when idle < 3600 then 1 end)/count(idle) from data where hour = 14
+union
+select 15,1.0*count(case when idle < 3600 then 1 end)/count(idle) from data where hour = 15
+union
+select 16,1.0*count(case when idle < 3600 then 1 end)/count(idle) from data where hour = 16
+union
+select 17,1.0*count(case when idle < 3600 then 1 end)/count(idle) from data where hour = 17
+union
+select 18,1.0*count(case when idle < 3600 then 1 end)/count(idle) from data where hour = 18
+union
+select 19,1.0*count(case when idle < 3600 then 1 end)/count(idle) from data where hour = 19
+union
+select 20,1.0*count(case when idle < 3600 then 1 end)/count(idle) from data where hour = 20
+union
+select 21,1.0*count(case when idle < 3600 then 1 end)/count(idle) from data where hour = 21
+union
+select 22,1.0*count(case when idle < 3600 then 1 end)/count(idle) from data where hour = 22
+union
+select 23,1.0*count(case when idle < 3600 then 1 end)/count(idle) from data where hour = 23;
