@@ -1,0 +1,1 @@
+select user,count(user) as x from data where idle<3600 group by user order by x desc limit 100;
